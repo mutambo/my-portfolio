@@ -77,7 +77,7 @@ const ContactPage: React.FC = () => {
     <div className="container mx-auto px-4 py-16">
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Get in Touch</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
+        <div className="bg-white shadow-lg rounded-lg p-6">
           <p className="text-lg mb-4">
             Let's work together to create something amazing! Whether you're ready to start a new project or just want to ask a question, I'm here to help. Feel free to drop me a message, and I'll get back to you as soon as possible.
           </p>
@@ -85,10 +85,10 @@ const ContactPage: React.FC = () => {
             I look forward to hearing from you and discussing how we can bring your vision to life!
           </p>
         </div>
-        <div>
+        <div className="bg-white shadow-lg rounded-lg p-6">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="name" className="block mb-2">Name</label>
+              <label htmlFor="name" className="block mb-2 font-semibold">Name</label>
               <input
                 type="text"
                 id="name"
@@ -100,7 +100,7 @@ const ContactPage: React.FC = () => {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block mb-2">Email</label>
+              <label htmlFor="email" className="block mb-2 font-semibold">Email</label>
               <input
                 type="email"
                 id="email"
@@ -112,7 +112,7 @@ const ContactPage: React.FC = () => {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block mb-2">Message</label>
+              <label htmlFor="message" className="block mb-2 font-semibold">Message</label>
               <textarea
                 id="message"
                 name="message"
