@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               Twitter
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://github.com/mutambo" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               GitHub
             </a>
           </div>
